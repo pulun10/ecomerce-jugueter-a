@@ -113,8 +113,8 @@ title.textContent = title.textContent + ' - ' + 'Manuel Alejandro Rodríguez Gue
 // cards
 async function getCards() {
     try {
-        const templateCards = await (await fetch('/templates/cards.hbs')).text();
-        const cardsArray = await (await fetch('/api/products.json')).json();
+        const templateCards = await (await fetch('templates/cards.hbs')).text();
+        const cardsArray = await (await fetch('api/products.json')).json();
         const template = Handlebars.compile(templateCards);
         const container = document.querySelector('.products-container');
         for (let i = 0; i < cardsArray.length; i++) {
