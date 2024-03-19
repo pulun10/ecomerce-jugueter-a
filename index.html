@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <script src="https://kit.fontawesome.com/13bc515588.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <button class="btn-nav"><i class="fa-solid fa-bars"></i></button>
+        <div class="logo"><img src="img/logo.png" alt="logo"></div>
+        <nav>
+            <ul>
+                <li><a href="#home">inicio</a></li>
+                <li><a href="#create">alta</a></li>
+                <li><a href="#contact">contacto</a></li>
+                <li><a href="#about-us">nosotros</a></li>
+                <li><button class="btn-cart"><i class="fa-solid fa-cart-shopping fa-flip-horizontal"></i></button></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="cart-modal-container">
+        <button class="btn-close-modal">X</button>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Producto</th>
+                    <th>Precio</th>
+                    <th>Cant.</th>
+                    <th>Subtotal</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- <tr>
+                    <td><img src="img/products/Thor.jpg" alt="thor"></td>
+                    <td>thor</td>
+                    <td>$2.000</td>
+                    <td>1</td>
+                    <td>$2.000</td>
+                    <td><button class="btn-clear-product">X</button></td>
+                </tr> -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4"></td>
+                    <td class="totalPrice">$</td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+    </section> 
+    <main> 
+    </main>
+    <footer>
+        <div class="items-social">
+            <ul>
+                <li><a href="https://www.youtube.com/channel/UCiBxZWamaDdlemljJ3aGPZQ" target="_blank" title="ir a YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="https://www.facebook.com/Hasbro" target="_blank" title="ir a facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://z-p15.www.instagram.com/starwars/?hl=es-la" target="_blank" title="ir a instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="mailto:manuelale9810@gmail.com"><i class="fa-brands fa-google" title="enviar correo"></i></a></li>
+                <li><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D" target="_blank" title="ir a twitter"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-container">
+            <div class="footer-about-proyect">
+                <div class="logo"><img src="img/logo.png" alt="logo"></div>
+            </div>
+            <div class="footer-page">
+                <h2>Home</h2>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#create">Alta</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#about-us">Nosotros</a></li>
+                </ul>
+            </div>
+            <div class="footer-connect">
+                <h2>Conéctate con nosotros</h2>
+                <ul>
+                    <li><a href="https://www.facebook.com/Hasbro" target="_blank">Facebook</a></li>
+                    <li><a href="https://z-p15.www.instagram.com/starwars/?hl=es-la" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCiBxZWamaDdlemljJ3aGPZQ" target="_blank">YouTube</a></li>
+                    <li><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D" target="_blank">Twitter</a></li>
+                    <li><a href="mailto:manuelale9810@gmail.com">Correo</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

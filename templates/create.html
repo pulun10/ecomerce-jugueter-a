@@ -1,0 +1,88 @@
+<h2 class="title-templates">alta</h2>
+<section class="f_main">
+    <form>
+        <fieldset class="f1">
+            <div class="c_nombreProducto">
+                <label for="nombreProducto">nombre del producto</label>
+                <input type="text" id="nombreProducto" required minlength="2" maxlength="70" pattern="[a-zA-Z0-9]+">
+            </div>
+            <div class="c_categoria">
+                <label for="category">categoría</label>
+                <input type="text" list="category" required>
+                <datalist name="category" id="category">
+                    <option value="Juegos de mesa"></option>
+                    <option value="Anime"></option>
+                    <option value="Muñecos"></option>
+                    <option value="Mangas"></option>
+                    <option value="Cars"></option>
+                    <option value="Deportes"></option>
+                    <option value="Ropa"></option>
+                    <option value="Accesorios"></option>
+                    <option value="Electronica"></option>
+                    <option value="Rompecabezas"></option>
+                </datalist>
+            </div>
+            <div class="c_marca">
+                <label for="brand">marca</label>
+                <input type="text" list="brand" required>
+                <datalist name="brand" id="brand">
+                    <option value="Hasbro"></option>
+                    <option value="Lego"></option>
+                    <option value="Mattel"></option>
+                    <option value="Nerf"></option>
+                    <option value="Marvel"></option>
+                    <option value="DC"></option>
+                    <option value="PoP!"></option>
+                    <option value="Starwars"></option>
+                    <option value="Toei"></option>
+                    <option value="Nintendo"></option>
+                </datalist>
+            </div>
+            <fieldset class="c_edad">
+                <legend>edad</legend>
+                <label for="desde">De</label>
+                <input type="text" id="desde" required pattern="^[0-9]|[1-9][0-9]$|100$">
+                <label for="hasta">a</label>
+                <input type="text" id="hasta" required pattern="^[0-9]|[1-9][0-9]$|100$">
+                <select name="edad" id="edad">
+                    <option value="años">Años</option>
+                    <option value="mes">Mes</option>
+                </select>
+            </fieldset>
+        </fieldset>
+        <fieldset class="f2">
+            <div>
+                <label for="descripcionCorta">descripción corta</label>
+                <textarea name="descripcionCorta" id="descripcionCorta" required minlength="10" maxlength="200" pattern="[a-zA-Z0-9]+" rows="5"></textarea>
+            </div>
+            <div>
+                <label for="descripcionLarga">descripción larga</label>
+                <textarea name="descripcionLarga" id="descripcionLarga" required minlength="10" maxlength="2000" pattern="[a-zA-Z0-9]+" rows="10"></textarea>
+            </div>
+        </fieldset>
+        <fieldset class="f3">
+            <div>
+                <label for="precio">precio</label>
+                <input type="text" id="precio" required pattern="[0-9.,]+">
+            </div>
+            <div>
+                <label for="stock">stock</label>
+                <input type="text" id="stock" required pattern="[0-9]+">
+            </div>
+            <div>
+                <fieldset class="c_envio">
+                    <legend>envío sin cargo</legend>
+                    <input type="radio" id="sincargo" name="envio" required>
+                    <label for="sincargo">si</label>
+                    <input type="radio" id="concargo" name="envio" required>
+                    <label for="concargo">no</label>
+                </fieldset>
+            </div>
+            <div class="foto">
+                <label for="foto">adjuntar fotografía</label>
+                <input type="file" accept="image/*" id="foto">
+            </div>
+            <div><button>Enviar</button></div>
+        </fieldset>
+    </form>
+</section>

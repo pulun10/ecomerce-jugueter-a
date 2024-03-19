@@ -1,0 +1,122 @@
+[
+    {
+    "image":"img/products/luffy.jpg",    
+    "title":"luffy",
+    "description":"Pop! one piece luffy",
+    "price":"$2000"
+    }, 
+    {
+    "image":"img/products/Zoro.jpg",    
+    "title":"zoro",
+    "description":"Pop! one piece zoro",
+    "price":"$2000"
+    },
+    {
+    "image":"img/products/Iron-Man.png",    
+    "title":"iron man",
+    "description":"Pop! iron man marvel",
+    "price":"$2000"
+    },
+    {
+    "image":"img/products/Spiderman.jpg",    
+    "title":"spiderman",
+    "description":"Pop! spiderman marvel",
+    "price":"$2000"
+    },
+    {
+    "image":"img/products/Thor.jpg",    
+    "title":"Thor",
+    "description":"Pop! thor marvel",
+    "price":"$2000"
+    },
+    {
+    "image":"img/products/freezer.jpg",    
+    "title":"freezer",
+    "description":"Pop! freezer dragon ball",
+    "price":"$2000"
+    },
+    {
+    "image":"img/products/Vegeta.png",    
+    "title":"Vegeta",
+    "description":"Pop! Vegeta dragon ball",
+    "price":"$2000"
+    },
+    {
+    "image":"img/products/Goku-blue.jpg",    
+    "title":"Goku",
+    "description":"Pop! Goku dragon ball",
+    "price":"$2000"
+    },
+    {
+    "image":"img/products/GOHAN.jpg",    
+    "title":"Gohan",
+    "description":"Pop! Gohan dragon ball",
+    "price":"$2000"
+    },
+    {
+    "image":"img/products/Lightsaber-blue.png",    
+    "title":"Lightsaber blue",
+    "description":"Pop! Lightsaber blue star wars",
+    "price":"$2000"
+    },
+    {
+    "image":"img/products/lightsaber-green.png",    
+    "title":"lightsaber green",
+    "description":"Pop! lightsaber green star wars",
+    "price":"$2000"
+    },
+    {
+    "image":"img/products/Mandalorian.png",    
+    "title":"Mandalorian",
+    "description":"Pop! Mandalorian star wars",
+    "price":"$2000"
+    },
+    {
+    "image":"img/products/darth-vader.jpg",    
+    "title":"darth vader",
+    "description":"Pop! darth vader star wars",
+    "price":"$2000"
+    },
+    {
+    "image":"img/products/Star-Wars-Puzzle.jpg",    
+    "title":"rompecabezas star wars",
+    "description":"rompecabezas star wars de 18.000 piezas",
+    "price":"$2000"
+    },
+    {
+    "image":"img/products/mario.png",    
+    "title":"mario",
+    "description":"nintendo super mario bros",
+    "price":"$2000"
+    },
+    {
+    "image":"img/products/Luigi.jpg",    
+    "title":"Luigi",
+    "description":"nintendo Luigi",
+    "price":"$2000"
+    },
+    {
+    "image":"img/products/Dungeons-Box.jpg",    
+    "title":"Dungeons and dragon",
+    "description":"juego de mesa Dungeons and dragons",
+    "price":"$2000"
+    },
+    {
+    "image":"img/products/Classic-Jenga.jpg",    
+    "title":"Jenga",
+    "description":"juego de mesa Jenga hasbro",
+    "price":"$2000"
+    },
+    {
+    "image":"img/products/Hasbro-Risk.jpg",    
+    "title":"Risk",
+    "description":"juego de mesa risk Hasbro",
+    "price":"$2000"
+    },
+    {
+    "image":"img/products/MONOPOLY.png",    
+    "title":"MONOPOLY",
+    "description":"juego de mesa MONOPOLY Hasbro",
+    "price":"$2000"
+    }
+]
